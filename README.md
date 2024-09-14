@@ -1,59 +1,44 @@
-#*CRUD*
-adalah singkatan dari empat operasi dasar yang dilakukan terhadap data dalam basis data atau aplikasi, yaitu Create, Read, Update, dan Delete. Operasi CRUD sering digunakan dalam pengembangan aplikasi berbasis database.
+# Tugas Pertemuan 4 - Pemrograman Berorientasi Objek (PBO)
 
-Berikut penjelasan tentang setiap operasi CRUD:
+## Deskripsi Tugas
+Pada pertemuan ke-4 mata kuliah Pemrograman Berorientasi Objek (PBO), tugas ini mencakup pembahasan mengenai konsep **CRUD**, **DDL**, **DML**, serta penanganan pengecualian (**Exception**) di Java dengan penggunaan **throws** dan **try-catch**. Berikut penjelasan lengkap dari konsep-konsep tersebut:
 
-*Create:*
+---
 
-Operasi ini digunakan untuk menambahkan data baru ke dalam database.
-Dalam SQL, ini biasanya dilakukan dengan menggunakan perintah INSERT.
+## DDL (Data Definition Language)
+**DDL** adalah sekumpulan perintah SQL yang digunakan untuk mendefinisikan dan mengelola **struktur** basis data. DDL digunakan untuk membuat, mengubah, dan menghapus tabel, indeks, serta objek-objek lain dalam basis data. Beberapa perintah DDL yang umum adalah:
+- **`CREATE`**: Membuat tabel atau objek lainnya dalam basis data.
+- **`ALTER`**: Mengubah struktur tabel atau objek lainnya.
+- **`DROP`**: Menghapus tabel atau objek dari basis data.
+- **`TRUNCATE`**: Menghapus semua data dalam tabel, tetapi tetap mempertahankan strukturnya.
 
-*Read:*
+## DML (Data Manipulation Language)
+**DML** adalah sekumpulan perintah SQL yang digunakan untuk **memanipulasi data** di dalam tabel. DML berfokus pada operasi seperti memasukkan data baru, mengambil data, memperbarui data yang ada, dan menghapus data dari tabel. Beberapa perintah DML yang umum adalah:
+- **`INSERT`**: Menambahkan data ke dalam tabel.
+- **`SELECT`**: Mengambil data dari tabel.
+- **`UPDATE`**: Memperbarui data dalam tabel.
+- **`DELETE`**: Menghapus data dari tabel.
 
-Operasi ini digunakan untuk membaca atau mengambil data dari database.
-Dalam SQL, ini dilakukan dengan perintah SELECT.
+## CRUD (Create, Read, Update, Delete)
+**CRUD** adalah istilah yang digunakan untuk menggambarkan empat operasi utama dalam aplikasi yang bekerja dengan basis data. Operasi CRUD berkaitan langsung dengan perintah DML dalam SQL. Berikut penjelasannya:
+- **Create**: Menambahkan data baru ke dalam database (dalam SQL menggunakan `INSERT`).
+- **Read**: Mengambil data dari database (dalam SQL menggunakan `SELECT`).
+- **Update**: Memperbarui data yang ada di database (dalam SQL menggunakan `UPDATE`).
+- **Delete**: Menghapus data dari database (dalam SQL menggunakan `DELETE`).
 
-*Update:*
+## Exception Handling di Java
+Penanganan **exception** (pengecualian) adalah mekanisme penting dalam Java untuk menangani kesalahan yang mungkin terjadi saat program berjalan. Exception bisa terjadi dalam berbagai situasi, seperti ketika mencoba membagi angka dengan nol, atau ketika mencoba mengakses elemen di luar batas array.
 
-Operasi ini digunakan untuk memperbarui data yang sudah ada dalam database.
-Dalam SQL, ini dilakukan dengan perintah UPDATE.
+### Throws
+Kata kunci **`throws`** digunakan untuk mendeklarasikan bahwa sebuah method dapat melempar pengecualian. Pengecualian ini harus ditangani oleh pemanggil method, baik dengan menggunakan `try-catch` atau dengan meneruskannya lebih lanjut.
 
-*Delete:*
+### Try-Catch
+Blok **`try-catch`** digunakan untuk menangkap pengecualian yang terjadi saat program berjalan. Blok `try` mencoba menjalankan kode yang mungkin menyebabkan pengecualian, sedangkan blok `catch` menangkap pengecualian tersebut dan menangani kesalahan yang terjadi.
 
-Operasi ini digunakan untuk menghapus data dari database.
-Dalam SQL, ini dilakukan dengan perintah DELETE.
+## Penutup
+Pada tugas ini, kita telah mempelajari:
+- **DDL dan DML** sebagai bagian dari SQL untuk mengelola struktur dan data dalam basis data.
+- **CRUD** sebagai operasi dasar dalam aplikasi yang bekerja dengan data.
+- Cara menangani **exception** di Java menggunakan **throws** dan **try-catch**.
 
-*DDL dan DML*
-CRUD sangat terkait dengan konsep DDL dan DML dalam SQL, yang merupakan bagian dari operasi pada basis data.
-
-*DDL (Data Definition Language)*
-*DDL* adalah sekumpulan perintah SQL yang digunakan untuk mendefinisikan dan mengelola struktur atau skema database. Ini mencakup pembuatan, penghapusan, dan perubahan tabel atau objek database lainnya.
-
-Perintah DDL yang umum digunakan:
-
-*CREATE:* Membuat tabel, skema, atau objek lain di database.
-
-*ALTER:* Mengubah struktur tabel, seperti menambah kolom baru.
-
-*DROP:* Menghapus tabel atau objek lainnya dari database.
-
-*TRUNCATE:* Menghapus semua data di tabel tetapi tidak menghapus strukturnya.
-
-*DML (Data Manipulation Language)*
-*DML* adalah sekumpulan perintah SQL yang digunakan untuk memanipulasi data di dalam tabel. DML bekerja dengan data yang ada di dalam objek yang didefinisikan oleh DDL.
-
-Perintah DML yang umum digunakan:
-
-*INSERT:* Menambahkan data ke dalam tabel (bagian dari operasi Create di CRUD).
-
-*SELECT:* Mengambil data dari tabel (bagian dari operasi Read di CRUD).
-
-*UPDATE:* Memperbarui data di dalam tabel (bagian dari operasi Update di CRUD).
-
-*DELETE:* Menghapus data dari tabel (bagian dari operasi Delete di CRUD).
-
-*Kesimpulan*
-*CRUD* adalah dasar untuk operasi manipulasi data dalam aplikasi berbasis database, yaitu Create, Read, Update, dan Delete.
-*DDL (Data Definition Language)* digunakan untuk mendefinisikan dan mengelola struktur database, seperti pembuatan dan perubahan tabel.
-*DML (Data Manipulation Language)* digunakan untuk memanipulasi data dalam tabel yang sudah didefinisikan oleh DDL, seperti memasukkan, mengambil, memperbarui, dan menghapus data.
-Jadi, CRUD berfokus pada operasi manipulasi data, sementara DDL dan DML lebih terkait dengan pengelolaan struktur dan data di database.
+Semoga penjelasan ini membantu dalam memahami materi pertemuan ke-4 PBO.
