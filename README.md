@@ -1,4 +1,4 @@
-*CRUD*
+#*CRUD*
 adalah singkatan dari empat operasi dasar yang dilakukan terhadap data dalam basis data atau aplikasi, yaitu Create, Read, Update, dan Delete. Operasi CRUD sering digunakan dalam pengembangan aplikasi berbasis database.
 
 Berikut penjelasan tentang setiap operasi CRUD:
