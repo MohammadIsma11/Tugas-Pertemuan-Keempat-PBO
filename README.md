@@ -1,7 +1,7 @@
 # Tugas Pertemuan 4 - Pemrograman Berorientasi Objek (PBO)
 
 ## Deskripsi Tugas
-Pada pertemuan ke-4 mata kuliah Pemrograman Berorientasi Objek (PBO), tugas ini mencakup pembahasan mengenai konsep **CRUD**, **DDL**, **DML**, serta penanganan pengecualian (**Exception**) di Java dengan penggunaan **throws** dan **try-catch**. Berikut penjelasan lengkap dari konsep-konsep tersebut:
+Pada pertemuan ke-4 mata kuliah Pemrograman Berorientasi Objek (PBO), tugas ini mencakup pembahasan mengenai konsep **CRUD**, **DDL** serta penanganan pengecualian (**Exception**) di Java dengan penggunaan **throws** dan **try-catch**. Berikut penjelasan lengkap dari konsep-konsep tersebut:
 
 ---
 
